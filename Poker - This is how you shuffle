@@ -1,0 +1,16 @@
+# R
+
+'''
+# Create a set of card                                              
+cards = matrix(data = 0,
+                nrow = 13,
+               ncol  = 4)
+
+colnames(cards) = sort(c('Hearts','Clubs','Spades','Diamonds'))
+
+# Let's shuffle and pick a handful (5 cards)
+random_cards    = sample(1:(13*4))[1:5]
+cards[random_cards] = 1
+'''
+
+# Using sample() to shuffle is a smart way to do. And I'm sure there are other ways. Wait til I find out
