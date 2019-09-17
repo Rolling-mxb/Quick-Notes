@@ -1,0 +1,14 @@
+# python
+
+# first of all, find the index for each elements in the list. Usually def a function, if the list is numerical then it's a easy day
+# sort it using sorted()
+# set the largest index 'list[0]' as key, then use filter()
+
+'''
+word = sorted(text, key=function, reverse=True)
+key = function(word[0])   
+ret = list(filter(lambda x: function(x) == key, word))
+return ret
+'''
+
+# A lot to discover in filter(). Of course this is one way to do it.
